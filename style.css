@@ -6,6 +6,7 @@ body {
     color: #F9FAF8;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
@@ -24,4 +25,13 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.hero {
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
