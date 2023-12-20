@@ -4,6 +4,8 @@ body {
 
 .header {
     color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
