@@ -1,18 +1,9 @@
+
 body {
-    background: #1F2937;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.header {
-    color: #F9FAF8;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-
-.logo {
-    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 ul {
@@ -25,28 +16,48 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #264653;
     font-size: 18px;
 }
 
-.hero {
-    color: #F9FAF8;
-    display: flex;
-    flex: 1;
-    padding-top: 50px;
-}
-
-.hero-main {
-    padding-right: 50px;
-    flex: 1;
+.section {
     display: flex;
     flex-direction: column;
 }
 
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section-one {
+    background: #E9C46A;
+    color: #264653;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero {
+    color: #264653;
+    display: flex;
+    padding-top: 50px;
+}
+
+
 .purchase {
     align-self: flex-start;
-    background: royalblue;
-    color: #F9FAF8;
+    background: #E76F51;
+    color: #264653;
     border: none;
     border-radius: 5px;
     padding: 10px;
