@@ -8,7 +8,7 @@ body {
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -32,17 +32,29 @@ a {
 .hero {
     color: #F9FAF8;
     display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
 }
 
 .hero-main {
-    font-size: 48px;
-    font-weight: extra-bold;
+    padding-right: 50px;
 }
 
-.hero-secondary {
+/* .image {
+    display: flex;
+} */
+
+.purchase {
+    align-self: flex-start;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0
+}
+
+p {
     font-size: 18px;
 }
