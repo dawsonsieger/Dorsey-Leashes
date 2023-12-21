@@ -33,6 +33,7 @@ a {
 .section-one {
     background: #E9C46A;
     color: #264653;
+    padding-bottom: 20px;
 }
 
 .header {
@@ -93,16 +94,40 @@ p {
     justify-content: center;
 }
 
-.leashes {
+.section-header.two {
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    flex: 1;
-    /* flex-direction: row; */
+    justify-content: center;
+    font-style: italic;
 }
 
-.leash-type {
-    border: 2px solid #264653;
+.leashes {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+
+.leash-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.leash-img {
+    display: flex;
+    border: 5px solid #264653;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.img-text {
+    padding-top: 10px;
+}
+
+img {
     border-radius: 5px;
-    padding: 20px;
 }
