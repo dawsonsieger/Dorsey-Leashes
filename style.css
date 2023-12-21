@@ -103,6 +103,7 @@ p {
 .leashes {
     box-sizing: border-box;
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 30px;
@@ -126,8 +127,10 @@ p {
 
 .img-text {
     padding-top: 10px;
+    width: 150px;
+    height: 100px;
 }
 
-img {
+.leash-img img {
     border-radius: 5px;
 }
