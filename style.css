@@ -20,6 +20,12 @@ a {
     font-size: 18px;
 }
 
+.purchase:hover{
+    transition: 0.7s;
+    background: #264653;
+    color: #E76F51;
+}
+
 .section {
     display: flex;
     flex-direction: column;
