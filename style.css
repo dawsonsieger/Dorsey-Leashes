@@ -134,3 +134,30 @@ p {
 .leash-img img {
     border-radius: 5px;
 }
+
+.section-three {
+    background: #F4A261;
+    color: #264653;
+    display: flex;
+    padding: 60px;
+}
+
+.quote {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 1;
+    max-width: 800px;
+}
+
+.testimonial {
+    font-weight: 400;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.credit{
+    font-weight: 700;
+    font-style: italic;
+}
+
