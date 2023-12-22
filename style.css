@@ -68,7 +68,7 @@ a {
     flex-shrink: 1;
     font-weight: bold;
     font-size: 16px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: auto;
 }
 
@@ -161,3 +161,42 @@ p {
     font-style: italic;
 }
 
+.section-four {
+    background: #E9C46A;
+    padding: 60px;
+}
+
+.actionCall {
+    background: #E76F51;
+    color: #264653;
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+}
+
+.actionText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.actionText h3 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.actionText p {
+    margin-top: 0;
+}
+
+.actionButton {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.actionButton button {
+    background: #E9C46A;
+}
